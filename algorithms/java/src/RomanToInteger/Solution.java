@@ -2,17 +2,16 @@ package RomanToInteger;
 
 class Solution {
     public static int getInt(char c) {
-        int num = 0;
-        switch (c) {
-            case 'I' -> num = 1;
-            case 'V' -> num = 5;
-            case 'X' -> num = 10;
-            case 'L' -> num = 50;
-            case 'C' -> num = 100;
-            case 'D' -> num = 500;
-            case 'M' -> num = 1000;
-        }
-        return num;
+        return switch (c) {
+            case 'I' -> 1;
+            case 'V' -> 5;
+            case 'X' -> 10;
+            case 'L' -> 50;
+            case 'C' -> 100;
+            case 'D' -> 500;
+            case 'M' -> 1000;
+            default -> throw new IllegalArgumentException("No such roman numeral.");
+        };
     }
 
     public static int romanToInt(String s) {
