@@ -5,9 +5,6 @@ import java.util.Stack;
 class Solution {
     public char getCounter(char c) {
         return switch (c) {
-            case '(' -> ')';
-            case '[' -> ']';
-            case '{' -> '}';
             case ')' -> '(';
             case ']' -> '[';
             case '}' -> '{';
