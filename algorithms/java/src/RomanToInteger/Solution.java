@@ -1,7 +1,7 @@
 package RomanToInteger;
 
 class Solution {
-    public static int getInt(char c) {
+    public int getInt(char c) {
         return switch (c) {
             case 'I' -> 1;
             case 'V' -> 5;
@@ -14,7 +14,7 @@ class Solution {
         };
     }
 
-    public static int romanToInt(String s) {
+    public int romanToInt(String s) {
         if (s.length() == 1) {
             return getInt(s.charAt(0));
         }
