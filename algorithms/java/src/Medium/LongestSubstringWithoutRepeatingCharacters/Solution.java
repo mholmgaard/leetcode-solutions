@@ -1,4 +1,4 @@
-package LongestSubstringWithoutRepeatingCharacters;
+package Medium.LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.HashSet;
 

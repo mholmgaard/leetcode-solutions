@@ -1,4 +1,4 @@
-package RomanToInteger;
+package Easy.RomanToInteger;
 
 class Solution {
     public int getInt(char c) {

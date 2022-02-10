@@ -1,4 +1,4 @@
-package MergeTwoSortedLists;
+package Easy.MergeTwoSortedLists;
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {

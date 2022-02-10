@@ -1,4 +1,4 @@
-package AddTwoNumbers;
+package Medium.AddTwoNumbers;
 
 public class ListNode {
     int val;

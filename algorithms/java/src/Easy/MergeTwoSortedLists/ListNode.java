@@ -1,4 +1,4 @@
-package MergeTwoSortedLists;
+package Easy.MergeTwoSortedLists;
 
 public class ListNode {
     int val;

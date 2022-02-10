@@ -1,4 +1,4 @@
-package ValidParentheses;
+package Easy.ValidParentheses;
 
 import java.util.Stack;
 
